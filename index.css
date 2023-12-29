@@ -1,0 +1,152 @@
+.about{
+    height: 500px;
+    background-color: rgb(193, 194, 194);
+    padding-top:100px;
+}
+
+.btn{
+    height: 50px;
+    width: 150px;
+}
+.site-footer{
+    height: 500px;
+    padding-top: 140px;
+    background-color: rgb(255, 255, 255);
+}
+
+.footer{
+    background-color: black;
+    height: 400px;
+    padding-top: 140px;
+}
+.btn1{
+    height: 200px;
+    width: 220px;
+    background-image: url('images/clean.png');
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+    padding-top: 170px;
+    background-position: center;
+}
+.btn1:focus {
+    border: 10px solid green;
+  }
+.btn2{
+    height: 200px;
+    width: 220px;
+    background-image: url('images/cook.jpg');
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+    padding-top: 170px;
+    background-position: center;
+}
+.btn3{
+    height: 200px;
+    width: 220px;
+    background-image: url('images/baby.png');
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+    padding-top: 170px;
+    background-position: center;
+}
+.btn4{
+    height: 200px;
+    width: 220px;
+    background-image: url('images/old.png');
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+    padding-top: 170px;
+    background-position: center;
+}
+
+.img{
+    height: 100px;
+    width: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.card{
+    height: 200px;
+    width: 220px;
+    margin-top: 100px;
+}
+
+.icons{
+	height: 20px;
+	width: 20px;
+}
+
+#icontwit{
+	height: 22px;
+	width: 40px;
+}
+
+
+#submit{
+	height: 30px;
+	width: 25px;
+		
+}
+
+
+@media screen and (max-width: 921px) {
+    
+
+ .navbar-nav .nav-link {
+        padding-top: 5px;
+        padding-bottom: 10px;
+        font-family: Poppins;
+ }
+    
+ .about{
+    height: inherit;
+    padding-top: 20px;
+ }
+ .btn2{
+    margin: 20px;
+ }
+ .btn3{
+    margin: 20px;
+ }
+ .btn1{
+    margin: 20px;
+ }
+ .btn4{
+    margin: 20px;
+ }
+.site-footer{
+    padding-top: 20px;
+    height: inherit;
+}
+.footer{
+    height: inherit;
+    padding-top: 50px;
+   }
+ 
+}
+
+@media screen and (min-width: 1001px) {
+    
+
+    .navbar-nav .nav-link {
+           padding-top: 5px;
+           padding-bottom: 10px;
+           font-family: Poppins;
+    }
+       
+    .about{
+       height: 500px;
+       padding-top: 20px;
+    }
+    
+   .footer{
+    height: 400px;
+   }
+
+   .site-footer{
+    height: 400px;
+   }
+    
+   }
